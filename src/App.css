@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 40px auto;
+  background-color: white;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  outline: none;
+  
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  border-bottom:  2px solid gray;
+  width: 80%;
+  margin: auto;
+  
+}
+
+.full-name input, .username input, .email input, .password input, .confirm-password input {
+  width: 95%;
+  padding: 10px;
+  margin: 5px auto;
+  outline: none;
+  border: 2px solid rgb(128, 128, 128, 0.5);
+  position: relative;
+}
+
+.checkbox {
+  margin:  10px 0;
+  
+}
+
+.checkbox input {
+  accent-color: blue;
+  margin-right: 30px;
+
+}
+
+.err {
+  position: absolute;
+  color: red;
+  font-size: 25px;
+  right: 230px;
+  margin-top: -65px;
+  
+}
+
+.error {
+  color: red;
+  padding:  5px 0;
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 97%;
+}
+
+@media (max-width: 1024px) {
+  .err {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    right: 120px;
+    margin-top: -65px;
+    
+  }
+  button {
+    width: 98%;
+  }
+}
+
+@media (max-width: 768px) {
+  .err {
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    right: 100px;
+    margin-top: -65px;
+    
+  }
+
+  button {
+    width: 99%;
+  }
+}
+
+@media (max-width: 568px) {
+  .err {
+    position: absolute;
+    color: red;
+    font-size: 20px;
+    right: 80px;
+    margin-top: -60px;
+    
+  }
+
+  button {
+    width: 100%;
+  }
+}
